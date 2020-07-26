@@ -1,5 +1,5 @@
 window.addEventListener('load',init);
-let time = 7;
+let time = 10;
 let score = 0;
 let inpaying;
 
@@ -103,7 +103,7 @@ function countdown (){
 function startMatch(){
     if(matchWord()){
         inpaying = true;
-        time=6;
+        time=10
         showWord(words);
         wordInout.value ='';
         score++;
